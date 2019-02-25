@@ -1,3 +1,5 @@
+require('dotenv').config()
+
 const express = require('express')
 const moongose = require('mongoose')
 const Sentry = require('@sentry/node')
